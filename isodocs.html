@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DARPO Cebu | ISO Documents</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Clean, sans-serif;
+      background-image: url('background.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .sticky-header {
+      position: sticky;
+      top: 0;
+      background-color: #028A0F;
+      z-index: 1000;
+      padding: 10px 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      height: 100px;
+      max-width: 100%;
+    }
+
+    .subtitle {
+      flex-grow: 1;
+      text-align: center;
+      font-size: 2.5vw;
+      color: white;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .subtext {
+      font-size: 2vw;
+      color: white;
+      font-weight: bold;
+      text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    main {
+      padding: 20px;
+      text-align: center;
+      font-size: 2.5vw;
+      color: white;
+      text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .nav-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 25px;
+      font-size: 2vw;
+      color: white;
+      background-color: #007BFF;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .nav-button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      background-color: #028A0F;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 1vw;
+      color: #fff;
+      margin-top: 360px;
+    }
+
+    @media (max-width: 768px) {
+      .subtitle, .subtext, main, .nav-button {
+        font-size: 5vw;
+      }
+
+      .logo {
+        height: 80px;
+      }
+
+      footer {
+        font-size: 3vw;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .subtitle, .subtext, main, .nav-button {
+        font-size: 6vw;
+      }
+
+      .logo {
+        height: 60px;
+      }
+
+      footer {
+        font-size: 3.5vw;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="sticky-header">
+    <div class="logo-section">
+      <div class="logo-container">
+        <img src="background/dar-logo.png" alt="Logo" class="logo">
+      </div>
+      <div class="subtitle">
+        DEPARTMENT OF AGRARIAN REFORM<br>
+        <span class="subtext">PROVINCIAL OFFICE - CEBU</span>
+      </div>
+      <div class="logo-container right-logo">
+        <img src="background/bagong-pilipinas.png" alt="Second Logo" class="logo">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h1>ISO DOCS</h1>
+    <a href="index.html" class="nav-button" target="_blank">Home</a>
+    <a href="https://docs.google.com/spreadsheets/d/15jG-24tRREvNlfKmCcEm45Ma-uImcMcGCjWVr_UIn7M/edit?gid=831721280#gid=831721280" class="nav-button" target="_blank">Manual</a>
+    <a href="your-target-page.html" class="nav-button" target="_blank">Annexes</a>
+  </main>
+
+  <footer>
+    &copy; 2024 Department of Agrarian Reform - Cebu. All rights reserved
+  </footer>
+</body>
+</html>
